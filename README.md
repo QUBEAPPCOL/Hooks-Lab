@@ -50,4 +50,4 @@ npm run typecheck
 - **IA:** interfaz `LLMProvider` con Anthropic como proveedor principal (Claude Opus 5.5) y OpenAI como respaldo. Para agregar otro proveedor se implementa una sola clase. Las claves viven solo en el servidor.
 - **Investigación:** sin scraping. TikTok, Instagram y LinkedIn se alimentan con material que sube el usuario (ver `docs/`).
 
-Documentación de investigación y diseño en `docs/`.
+Documentación de investigación y diseño en `docs/`. **Guía de despliegue (Supabase + Vercel, sin instalar nada): `docs/04-guia-despliegue.md`.**
