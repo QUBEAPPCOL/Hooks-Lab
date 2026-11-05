@@ -42,7 +42,12 @@ pulida" para que él la ensucie.
 9. **Remate seco, a lo bruto.** "El cargo se lo alquilan un rato. La reputación
    de afuera se la lleva puesta." "Punto!." Contraste sí, pero con palabras de
    él, no de manual.
-10. **Cierre:** pregunta concreta al lector (a veces sin "¿" de apertura,
+10. **No repetir muletillas entre posts.** Cada frase de cierre o transición de
+    sus posts aparece UNA vez en los 6 ejemplos ("Me quedo pensando . . .",
+    "Venga le digo", "Eso sí.", "El detalle es que"). Usarlas como plantilla en
+    cada post las vuelve trilladas. Antes de entregar, revisar los borradores de
+    `.claude/linkedin/` de las últimas 2 semanas: si una muletilla ya salió, no se repite.
+11. **Cierre:** pregunta concreta al lector (a veces sin "¿" de apertura,
     está bien), luego PD con palabra clave por DM (DIAGNÓSTICO, EQUIPO) o
     "link en comentarios". Opcional PD 2 con humor personal o familiar.
 11. **Puntuación imperfecta a propósito**: ". . .", "Punto!.", "...", algún
