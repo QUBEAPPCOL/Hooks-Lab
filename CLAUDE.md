@@ -16,7 +16,10 @@ se escribe en la voz de Andrés definida en `.claude/linkedin/voice.md`.
 5. `li-human`: usar solo `detect.py` como referencia. NO aplicar `humanize.py`
    sobre sus textos: borra su firma " . . ." y su puntuación imperfecta.
    El detector está calibrado para inglés; su puntaje de VOICE no aplica en español.
-6. Nunca inventar cifras, clientes, diálogos ni desenlaces. Si falta un dato
+6. Dos opciones de post por tema, siempre: dos posts COMPLETOS con apertura,
+   estructura y ángulo distintos (no dos versiones del mismo texto), ambos con
+   `voz: 8/8`. Decir cuál publicaría y por qué en una frase.
+7. Nunca inventar cifras, clientes, diálogos ni desenlaces. Si falta un dato
    real, marcar `{{dato}}` y preguntar.
 
 Plan semanal y borradores: `.claude/linkedin/`.
