@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+/* HOOKS LAB — negro carbón, gris, blanco; acento verde oliva; secundario rosa pastel. */
+:root {
+  --bg: #f6f5f1;
+  --surface: #ffffff;
+  --surface-2: #efede6;
+  --line: #dedbd1;
+  --ink: #161616;
+  --ink-2: #4a4a46;
+  --muted: #7a7a72;
+  --olive: #5f6f2e;
+  --olive-soft: #e5e9d3;
+  --rose: #c98b84;
+  --rose-soft: #f6e3df;
+  --danger: #b4442f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121212;
+    --surface: #1a1a19;
+    --surface-2: #222220;
+    --line: #2f2f2c;
+    --ink: #f1f0ea;
+    --ink-2: #c8c7bf;
+    --muted: #8e8d85;
+    --olive: #a3b55c;
+    --olive-soft: #2a3017;
+    --rose: #e8b4ad;
+    --rose-soft: #3a2725;
+    --danger: #e0806c;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121212;
+  --surface: #1a1a19;
+  --surface-2: #222220;
+  --line: #2f2f2c;
+  --ink: #f1f0ea;
+  --ink-2: #c8c7bf;
+  --muted: #8e8d85;
+  --olive: #a3b55c;
+  --olive-soft: #2a3017;
+  --rose: #e8b4ad;
+  --rose-soft: #3a2725;
+  --danger: #e0806c;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-olive: var(--olive);
+  --color-olive-soft: var(--olive-soft);
+  --color-rose: var(--rose);
+  --color-rose-soft: var(--rose-soft);
+  --color-danger: var(--danger);
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Fraunces", "Iowan Old Style", Georgia, ui-serif, serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.field {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 10px;
+  padding: 0.6rem 0.75rem;
+  font-size: 0.925rem;
+  color: var(--ink);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.field:focus {
+  outline: none;
+  border-color: var(--olive);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--olive) 20%, transparent);
+}
+.label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.15s;
+}
+.chip:hover { border-color: var(--olive); }
+.chip[data-on="true"], .chip:has(input:checked) {
+  background: var(--olive);
+  border-color: var(--olive);
+  color: var(--bg);
+}
+.chip input { position: absolute; opacity: 0; pointer-events: none; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  border-radius: 10px; padding: 0.6rem 1rem; font-weight: 600; font-size: 0.9rem;
+  transition: transform 0.1s, opacity 0.15s, background 0.15s;
+}
+.btn:active { transform: scale(0.98); }
+.btn:disabled { opacity: 0.55; cursor: not-allowed; }
+.btn-primary { background: var(--olive); color: var(--bg); }
+.btn-primary:hover { opacity: 0.92; }
+.btn-ghost { border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
+.btn-ghost:hover { border-color: var(--olive); }
+.btn-rose { background: var(--rose-soft); color: var(--ink); border: 1px solid var(--rose); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; }
+.serif { font-family: var(--font-serif); }
