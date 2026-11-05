@@ -98,6 +98,12 @@ Responder cada punto. Si alguno es "no", reescribir antes de mostrar.
 
 Al entregar, mostrar el chequeo en una línea: `voz: 8/8`.
 
+## Borradores APROBADOS por Andrés (usar como referencia de tono)
+- `borrador-martes-B.txt` (equipos comerciales, tono desahogo): "Esa sí suena a mí, mantengamos esa línea."
+- `borrador-jueves.txt` (CEO a comisión, versión A): aprobado.
+Rechazados por sonar a IA: versiones con "lo mandó a la guerra", "la frase más cara del año",
+"con conocimiento de causa", "le voy a decir algo que le va a doler", listas de buenas prácticas.
+
 ## Los 6 posts de referencia (fuente de verdad)
 
 ### 1. Despido y red de contactos
