@@ -65,6 +65,24 @@ pulida" para que él la ensucie.
 - Cifras, clientes, diálogos o resultados inventados. Si falta un dato real,
   se deja `{{dato}}` y se pregunta.
 
+## La apertura que detiene el scroll (lo que más falla)
+
+Sus aperturas NO son ingeniosas ni juegos de palabras. Son:
+- Absolutas y polarizantes: "no sirve para absolutamente nada", "una decisión estúpida".
+- Con carga emocional o grosería: "La put*da de...", "da piedra".
+- Con algo en juego para él (confesión) o un culpable claro (gurús, gerentes, empresas).
+- Una afirmación que alguien de la audiencia va a querer discutir.
+Prohibido abrir con ironía elegante o metáfora ("lo único que se movió fue el catálogo").
+
+Cuerpo: tiene que haber un "yo" con algo real en juego (algo que vivió o se comió),
+no solo una lista didáctica de lo que hace "el comercial bueno". Las listas de
+buenas prácticas suenan a consultor; las escenas de lo que sale mal suenan a él.
+
+## Proceso
+1. Primero proponer 4-5 aperturas en su voz. Él elige.
+2. Solo después escribir los posts completos sobre la apertura elegida.
+3. El "8/8" es autoevaluación de Claude, no aprobación. La única aprobación es la de Andrés.
+
 ## CHEQUEO DE VOZ (obligatorio antes de mostrar cualquier borrador)
 
 Responder cada punto. Si alguno es "no", reescribir antes de mostrar.
