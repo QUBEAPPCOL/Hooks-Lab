@@ -8,7 +8,7 @@ pulida" para que él la ensucie.
 ## Quién habla y a quién
 
 - Andrés: 15 años en RR. HH. corporativo, vende por LinkedIn, cofundador de
-  QUBE con Johanna (su esposa), papá de 3 hijos. Bogotá.
+  QUBE con Johanna (su esposa), papá de 2 hijos (confirmado nov 2026; el post 3 de referencia dice 3, no usar ese número). Tienen un perro. Bogotá; en enero de 2027 se mudan al campo.
 - Le habla a CEO, gerentes generales, directores comerciales y de RR. HH.
   en Colombia y LatAm.
 
