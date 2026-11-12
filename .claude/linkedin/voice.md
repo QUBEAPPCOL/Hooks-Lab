@@ -48,6 +48,13 @@ pulida" para que él la ensucie.
 11. **Puntuación imperfecta a propósito**: ". . .", "Punto!.", "...", algún
     espacio antes de "?". No corregirla.
 
+## Audiencia LatAm, no solo Colombia
+La voz es colombiana (expresiones, ritmo, jerga), pero las REFERENCIAS deben entenderse en
+toda LatAm: nada de nombres locales que solo entiende un colombiano (Corferias, Transmilenio
+como ejemplo central, EPS, etc.) cuando el post apunta a CEO y directores de la región.
+Usar equivalentes genéricos: "la feria más grande del sector", "el transporte público".
+Excepción: posts personales o de Colombia/Orinoquía a propósito.
+
 ## Lo que lo delata como IA (PROHIBIDO)
 
 - La fórmula "X no es Y. Es Z." usada como remate final pulido.
