@@ -71,7 +71,7 @@ Reply "yes" to log it, or tell me what to change.
 ```
 
 **5. Never publish.** This skill produces text. The user posts it. On "yes",
-append the post to `.claude/linkedin/log.md` with the date, the hook used
+append the post to `.claude/linkedin/publicados.md` with the date, the hook used
 and the first line, so `/li-audit` has a history to work from later.
 
 ## Rules that make the difference
